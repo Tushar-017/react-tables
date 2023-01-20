@@ -1,8 +1,7 @@
 import "./App.css"
-import BasicTable from "./component/BasicTable"
-import FilteringTable from "./component/FilteringTable"
-import PaginationTable from "./component/PaginationTable"
-import SortingTable from "./component/SortingTable"
+import FetchingTable from "./component/FetchingTable"
+
+// import NewBasicTable from "./component/NewBasicTable"
 
 function App() {
   return (
@@ -10,7 +9,9 @@ function App() {
       {/* <BasicTable /> */}
       {/* <SortingTable /> */}
       {/* <FilteringTable /> */}
-      <PaginationTable />
+      {/* <PaginationTable /> */}
+      {/* <NewBasicTable /> */}
+      <FetchingTable />
     </div>
   )
 }
